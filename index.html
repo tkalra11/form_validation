@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="tusharkalra1" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="abc@gmail.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Confirm password</label>
+                <input type="password" placeholder="Password" id="password2" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    
+    <!-- SOCIAL PANEL HTML -->
+    <div class="social-panel-container">
+        <div class="social-panel">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <h4>Get in touch on</h4>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/tusharkalra11/" target="_blank">
+                        <img src = "https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="30" height="30"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/tkalra11" target="_blank">
+                        <img src = "https://cdn-icons-png.flaticon.com/128/733/733609.png" width="30" height="30"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/tusharkalra11_/" target="_blank">
+                        <img src = "https://cdn-icons-png.flaticon.com/128/2111/2111463.png" width="30" height="30"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto : tkalra1111@gmail.com" target="_blank">
+                        <img src = "https://cdn-icons-png.flaticon.com/128/5968/5968534.png" width="30" height="30"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button class="floating-btn">
+        Get in Touch
+    </button>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
